@@ -1,6 +1,13 @@
 .App {
   text-align: center;
 }
+.App {
+  text-align: center;
+  background-image: url('https://th.bing.com/th/id/R.dd7859a5cb1886f72c905ac126c06337?rik=h5dTE0EyMuNZfQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fTechnology-HD-Wallpapers.jpg&ehk=ISeyWkyJLU7qkMaejY33nhU7OxvM4dmJMrSdBFWRbQ8%3d&risl=&pid=ImgRaw&r=0'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* Styles pour le fond d'écran */
+body {
+  /* Utilisation d'une image de fond */
+  background-image: url('https://img.freepik.com/vecteurs-libre/fond-technologie-abstraite-gris-blanc-connexion-numerique-hi-tech-communication-concept-haute-technologie-science-fond-technologie_262356-44.jpg?size=626&ext=jpg');
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir tout l'écran */
+  background-repeat: no-repeat; /* Pas de répétition de l'image */
+  background-attachment: fixed; /* Empêcher le défilement de l'image */
+  background-position: center center; /* Centrer l'image horizontalement et verticalement */
+  margin: 0;
+  padding: 0;
+}
+/* Styles pour le bouton "Toggle Profile" */
+.toggle-button {
+  background-color: #007bff; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  padding: 10px 20px; /* Espacement interne (hauteur x largeur) */
+  border: none; /* Supprime la bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur de type main (pointer) au survol */
+  font-size: 16px; /* Taille de police */
+}
+
+/* Style au survol du bouton */
+.toggle-button:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
 }
